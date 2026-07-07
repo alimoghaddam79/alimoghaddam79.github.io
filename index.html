@@ -1,50 +1,321 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: auto;
-            padding: 40px;
-        }
-        h1 {
-            color: #333;
-        }
-        .project {
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin: 15px 0;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali Moghaddam | Game Developer</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <h1>Your Name</h1>
+<body class="font-sans antialiased">
 
-    <p>Web Developer | Designer | Student</p>
+<div class="relative overflow-hidden">
+    <div class="hero-glow"></div>
 
-    <h2>About Me</h2>
-    <p>
-        Write a short introduction about yourself.
-    </p>
+    <header class="relative z-10">
+        <div class="max-w-[1160px] mx-auto px-6 py-7 flex items-center justify-between">
 
-    <h2>Projects</h2>
+            <a href="#" class="text-lg font-semibold tracking-tight">
+                AM.
+            </a>
 
-    <div class="project">
-        <h3>Project 1</h3>
-        <p>Description of your project.</p>
+            <a href="contact.html" class="glass rounded-full px-6 py-3 text-sm font-medium hover:bg-white/10 transition">
+                Book a Call
+            </a>
+
+        </div>
+    </header>
+
+    <section class="relative z-10">
+        <div class="max-w-[1160px] mx-auto px-6 pt-36 pb-28 flex flex-col items-center text-center">
+
+        <div class="inline-flex items-center gap-3 glass rounded-full px-4 py-2">
+            <span class="relative flex h-3 w-3">
+                <span class="pulse absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-70"></span>
+                <span class="relative inline-flex h-3 w-3 rounded-full bg-green-400"></span>
+            </span>
+            <span class="text-sm text-primary">
+                Unity Developer · Full Stack
+            </span>
+        </div>
+
+        <h1 class="balance mt-8 max-w-4xl mx-auto text-5xl md:text-7xl font-extrabold leading-tight tracking-tight text-primary">
+            Worlds that feel real.
+        </h1>
+
+        <h1 class="balance mt-4 max-w-4xl mx-auto text-5xl md:text-7xl font-extrabold leading-tight tracking-tight text-muted">
+            Games that actually ship.
+        </h1>
+
+        <p class="mt-8 max-w-2xl mx-auto text-lg text-muted leading-8">
+            Hello, I’m Ali Moghaddam — a Full-Stack Unity Developer building simulation software and games for Android and PC.
+        </p>
+
+        <div class="mt-12 flex flex-wrap justify-center gap-4">
+            <a href="#" class="rounded-full bg-primary text-black font-semibold px-7 py-4 transition hover:scale-[1.02]">
+                View Resume
+            </a>
+            <a href="contact.html" class="glass rounded-full px-7 py-4 border border-white/10 hover:bg-white/10 transition">
+                Let's talk
+            </a>
+        </div>
+
+        </div>
+    </section>
+</div>
+
+
+
+<section class="w-full">
+
+<!-- ATC project Simulator -->
+    <div class="max-w-[1440px] mx-auto px-6 md:px-12 h-screen py-12 flex items-center justify-center">
+
+        <div class="bg-surface rounded-2xl border border-white/5 shadow-panel overflow-hidden flex flex-col w-full h-full max-h-[80vh]">
+            
+            <div class="flex gap-2 px-5 py-4 border-b border-white/5 flex-none w-full">
+                <span class="w-3 h-3 rounded-full bg-[#ff5f56]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#ffbd2e]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#27c93f]"></span>
+            </div>
+
+            <a class="grid lg:grid-cols-2 gap-0 flex-grow h-full items-stretch" href="Pages/ATC.html">
+                
+                <div class="p-8 md:p-12 flex flex-col justify-center">
+                    <div>
+                        <span class="glass rounded-full px-4 py-2 text-sm inline-block">Unity · C# · Mirror Networking</span>
+                    </div>
+                    <h2 class="mt-6 text-4xl md:text-5xl font-bold text-primary tracking-tight">ATC Tower Simulator</h2>
+                    <p class="mt-6 text-muted text-lg leading-8">
+                        Beautiful analytics dashboard with clean UI, responsive layouts, reusable components and smooth user experience.
+                    </p>
+                </div>
+
+                <div class="relative w-full h-full min-h-[300px] lg:min-h-full">
+                    <img src="https://framerusercontent.com/images/tKgfB7SBo8gKZz19fPQfoRLsePQ.jpg?width=880&height=587" 
+                         alt="ATC Project Preview" 
+                         class="absolute inset-0 w-full h-full object-cover" />
+                </div>
+
+            </a>
+
+        </div>
+
     </div>
 
-    <div class="project">
-        <h3>Project 2</h3>
-        <p>Description of your project.</p>
+<!-- Hunt Time -->
+    <div class="max-w-[1440px] mx-auto px-6 md:px-12 h-screen py-12 flex items-center justify-center">
+
+        <div class="bg-surface rounded-2xl border border-white/5 shadow-panel overflow-hidden flex flex-col w-full h-full max-h-[80vh]">
+            
+            <div class="flex gap-2 px-5 py-4 border-b border-white/5 flex-none w-full">
+                <span class="w-3 h-3 rounded-full bg-[#ff5f56]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#ffbd2e]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#27c93f]"></span>
+            </div>
+
+            <a class="grid lg:grid-cols-2 gap-0 flex-grow h-full items-stretch" href="./Pages/HuntTime.html">
+                
+                <div class="p-8 md:p-12 flex flex-col justify-center">
+                    <div>
+                        <span class="glass rounded-full px-4 py-2 text-sm inline-block">Unity · C# · HDRP</span>
+                    </div>
+                    <h2 class="mt-6 text-4xl md:text-5xl font-bold text-primary tracking-tight">Hunt Time</h2>
+                    <p class="mt-6 text-muted text-lg leading-8">
+                        Co-founded and directed this survival horror video game, building HDRP visuals, cinematic cutscenes, and a 3D-scanned asset pipeline.
+                    </p>
+                </div>
+
+                <div class="relative w-full h-full min-h-[300px] lg:min-h-full">
+                    <img src="https://framerusercontent.com/images/kYRnHZoDqp6YqeIFB54ZG4BabYo.png?scale-down-to=1024&width=1920&height=1080" 
+                         alt="Project Preview" 
+                         class="absolute inset-0 w-full h-full object-cover" />
+                </div>
+
+            </a>
+
+        </div>
+
     </div>
 
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
+
+<!-- Fani Beats -->
+    <div class="max-w-[1440px] mx-auto px-6 md:px-12 h-screen py-12 flex items-center justify-center">
+
+        <div class="bg-surface rounded-2xl border border-white/5 shadow-panel overflow-hidden flex flex-col w-full h-full max-h-[80vh]">
+            
+            <div class="flex gap-2 px-5 py-4 border-b border-white/5 flex-none w-full">
+                <span class="w-3 h-3 rounded-full bg-[#ff5f56]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#ffbd2e]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#27c93f]"></span>
+            </div>
+
+            <a class="grid lg:grid-cols-2 gap-0 flex-grow h-full items-stretch" href="./Pages/FaniBeats.html">
+                
+                <div class="p-8 md:p-12 flex flex-col justify-center">
+                    <div>
+                        <span class="glass rounded-full px-4 py-2 text-sm inline-block">Unity · C# · UX Design</span>
+                    </div>
+                    <h2 class="mt-6 text-4xl md:text-5xl font-bold text-primary tracking-tight">Fani Beats</h2>
+                    <p class="mt-6 text-muted text-lg leading-8">
+                        Senior developer on this rhythm game, shipping to positive user feedback with continuous UX-driven feature updates.
+                    </p>
+                </div>
+
+                <div class="relative w-full h-full min-h-[300px] lg:min-h-full">
+                    <img src="https://framerusercontent.com/images/z7uw04WhtMiq6QXL9sWuKy5nBI8.jpg?width=880&height=587" 
+                         alt="Project Preview" 
+                         class="absolute inset-0 w-full h-full object-cover" />
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+<!-- AR/VR -->
+    <div class="max-w-[1440px] mx-auto px-6 md:px-12 h-screen py-12 flex items-center justify-center">
+
+        <div class="bg-surface rounded-2xl border border-white/5 shadow-panel overflow-hidden flex flex-col w-full h-full max-h-[80vh]">
+            
+            <div class="flex gap-2 px-5 py-4 border-b border-white/5 flex-none w-full">
+                <span class="w-3 h-3 rounded-full bg-[#ff5f56]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#ffbd2e]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#27c93f]"></span>
+            </div>
+
+            <a class="grid lg:grid-cols-2 gap-0 flex-grow h-full items-stretch" href="./Pages/VR.html">
+                
+                <div class="p-8 md:p-12 flex flex-col justify-center">
+                    <div>
+                        <span class="glass rounded-full px-4 py-2 text-sm inline-block">Unity · C# · VR/AR</span>
+                    </div>
+                    <h2 class="mt-6 text-4xl md:text-5xl font-bold text-primary tracking-tight">VR/AR</h2>
+                    <p class="mt-6 text-muted text-lg leading-8">
+                        Cross-platform AR/VR demos built for Oculus, HTC Vive, and Valve Index, including networked PC-to-headset connections.
+                    </p>
+                </div>
+
+                <div class="relative w-full h-full min-h-[300px] lg:min-h-full">
+                    <img src="https://framerusercontent.com/images/jDVj8CebjQ084iJqhL0awHQkc.jpg?width=880&height=587" 
+                         alt="Project Preview" 
+                         class="absolute inset-0 w-full h-full object-cover" />
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- More Games -->
+<section class="pb-28">
+    <div class="max-w-[1160px] mx-auto px-6">
+
+        <div class="bg-surface rounded-2xl border border-white/5 shadow-panel overflow-hidden">
+
+            <div class="flex items-center gap-2 border-b border-white/5 px-6 py-4">
+                <span class="w-3 h-3 rounded-full bg-[#ff5f56]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#ffbd2e]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#27c93f]"></span>
+            </div>
+
+            <div class="p-10 flex flex-col items-center text-center max-w-4xl mx-auto">
+
+                <div class="flex -space-x-3 justify-center">
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-pink-500 to-purple-500 border-2 border-surface"></div>
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 border-2 border-surface"></div>
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-green-400 to-emerald-600 border-2 border-surface"></div>
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-br from-orange-400 to-red-500 border-2 border-surface"></div>
+                </div>
+
+                <h2 class="mt-10 text-3xl font-bold text-primary max-w-2xl">
+                    Full-Stack Unity Developer bridging real-world needs with virtual solutions.
+                </h2>
+
+                <p class="mt-4 text-muted leading-7 max-w-3xl">
+                    Experienced game developer with expertise in Unity Engine and C# programming, specialized in crafting engaging games for Android and PC. I developed an immersive air traffic control simulator for the Iranian Airports Holding Company, bridging real-world airport operations with a virtual training tool. Associate degree from Shahid Bahonar University, with a toolkit spanning Blender, Substance Painter, UI/UX design, and Git.
+                </p>
+
+                <div class="mt-8 flex flex-wrap justify-center gap-3">
+                    <span class="glass rounded-full px-4 py-2 text-sm">Unity Development</span>
+                    <span class="glass rounded-full px-4 py-2 text-sm">C# Programming</span>
+                    <span class="glass rounded-full px-4 py-2 text-sm">3D & Simulation</span>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Toolkit -->
+<section class="pb-28">
+    <div class="max-w-[1160px] mx-auto px-6">
+
+        <div class="max-w-2xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-primary">
+                Toolkit
+            </h2>
+            <p class="mt-4 text-muted leading-8">
+                Minimal surfaces, generous spacing, refined hierarchy, and components
+                that scale beautifully from mobile to desktop.
+            </p>
+        </div>
+
+        <div class="mt-16 grid gap-7 [grid-template-columns:repeat(auto-fit,minmax(270px,1fr))]">
+
+            <article class="rounded-2xl border border-white/5 bg-gradient-to-b from-white/[0.03] to-white/[0.015] p-7 flex flex-col items-center text-center">
+                <div class="w-[140px] h-[140px] rounded-[32px] bg-gradient-to-br from-fuchsia-500/20 to-purple-700/20 border border-white/5"></div>
+                <h3 class="mt-8 text-xl font-semibold text-primary">Engineering</h3>
+                <p class="mt-3 text-muted leading-7">Unity Engine, C#, Full-Stack Unity Development, Git, Performance optimization, Multiplatform</p>
+            </article>
+
+            <article class="rounded-2xl border border-white/5 bg-gradient-to-b from-white/[0.03] to-white/[0.015] p-7 flex flex-col items-center text-center">
+                <div class="w-[140px] h-[140px] rounded-[32px] bg-gradient-to-br from-cyan-500/20 to-blue-700/20 border border-white/5"></div>
+                <h3 class="mt-8 text-xl font-semibold text-primary">Art & Design</h3>
+                <p class="mt-3 text-muted leading-7">Blender, Adobe Substance Painter, Adobe Illustrator, UI Design, UX Design</p>
+            </article>
+
+            <article class="rounded-2xl border border-white/5 bg-gradient-to-b from-white/[0.03] to-white/[0.015] p-7 flex flex-col items-center text-center">
+                <div class="w-[140px] h-[140px] rounded-[32px] bg-gradient-to-br from-emerald-500/20 to-lime-700/20 border border-white/5"></div>
+                <h3 class="mt-8 text-xl font-semibold text-primary">Production & Audio</h3>
+                <p class="mt-3 text-muted leading-7">Adobe Audition, FL Studio, Project Management</p>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="max-w-[1160px] mx-auto px-6">
+        <div class="border-t border-white/5 py-10 flex flex-col md:flex-row justify-between gap-5">
+            <p class="text-muted text-sm">
+                © 2026 AM. Crafted with HTML & Tailwind CSS.
+            </p>
+            <!-- <nav class="flex gap-8 text-sm text-muted">
+                <a href="#" class="hover:text-white transition">Twitter</a>
+                <a href="#" class="hover:text-white transition">GitHub</a>
+                <a href="#" class="hover:text-white transition">Docs</a>
+                <a href="#" class="hover:text-white transition">Contact</a>
+            </nav> -->
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
-</html>
+</html> 

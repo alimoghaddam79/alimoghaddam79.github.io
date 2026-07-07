@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - NOVA</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="font-sans antialiased text-primary bg-[#080809]">
+
+    <header class="relative z-10 border-b border-white/5 bg-surface/50 backdrop-blur-md sticky top-0">
+        <div class="max-w-[1160px] mx-auto px-6 py-5 flex items-center justify-between">
+            <a href="../index.html" class="text-lg font-semibold tracking-tight flex items-center gap-2 hover:opacity-80 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                </svg>
+                Back to Portfolio
+            </a>
+            <span class="text-sm text-muted">Project Case Study</span>
+        </div>
+    </header>
+
+    <main class="max-w-[1160px] mx-auto px-6 py-16 md:py-24">
+        
+        <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-sm text-muted">
+                <span>Game</span>
+                <span class="w-1 h-1 rounded-full bg-white/30"></span>
+                <span>Android </span>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mt-6 text-primary">
+                FaniBeats
+            </h1>
+            <p class="text-muted text-lg md:text-xl leading-8 mt-6">
+                An immersive, high-fidelity virtual training system developed for the Iranian Airports Holding Company to bridge real-world operations with interactive simulation.
+            </p>
+        </div>
+
+        <div class="mt-12 bg-surface rounded-2xl border border-white/5 shadow-panel overflow-hidden flex flex-col w-full aspect-[16/9] max-h-[550px]">
+            <div class="flex gap-2 px-5 py-4 border-b border-white/5 flex-none w-full">
+                <span class="w-3 h-3 rounded-full bg-[#ff5f56]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#ffbd2e]"></span>
+                <span class="w-3 h-3 rounded-full bg-[#27c93f]"></span>
+            </div>
+            <div class="flex-grow w-full relative h-full">
+                <img src="https://framerusercontent.com/images/z7uw04WhtMiq6QXL9sWuKy5nBI8.jpg?width=880&height=587" 
+                     alt="Project Main Preview" 
+                     class="absolute inset-0 w-full h-full object-cover" />
+            </div>
+        </div>
+
+        <div class="mt-16 grid lg:grid-cols-3 gap-12 items-start">
+            
+            <div class="lg:col-span-2 space-y-12">
+                
+                <section>
+                    <h2 class="text-2xl font-bold text-primary">Project Overview</h2>
+                    <p class="text-muted leading-8 mt-4">
+                        This project was commissioned to solve a critical training challenge: providing air traffic controllers with a risk-free, highly realistic environment to practice complex radar tracking, communication protocols, and emergency management. Built from scratch in Unity, the system processes multi-agent data feeds to simulate crowded airspace conditions accurately.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-primary">Key Challenges & Solutions</h2>
+                    <ul class="mt-4 space-y-4 list-disc list-inside text-muted leading-7">
+                        <li><strong class="text-primary">Real-time Performance:</strong> Managing dozens of active aircraft telemetry inputs simultaneously. Solved using optimized C# data structures and physics stripping.</li>
+                        <li><strong class="text-primary">Cross-Platform UI:</strong> Ensuring the simulation data looks precise on high-res PC monitors and remains responsive on Android tablets.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-primary mb-6">Screenshots & Media</h2>
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div class="bg-surface border border-white/5 rounded-xl overflow-hidden aspect-video relative">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600" class="absolute inset-0 w-full h-full object-cover opacity-80 hover:opacity-100 transition" alt="Gallery 1">
+                        </div>
+                        <div class="bg-surface border border-white/5 rounded-xl overflow-hidden aspect-video relative">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600" class="absolute inset-0 w-full h-full object-cover opacity-80 hover:opacity-100 transition" alt="Gallery 2">
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="bg-surface border border-white/5 rounded-2xl p-8 space-y-6 sticky top-28">
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-muted">Role</h3>
+                    <p class="text-primary font-medium mt-1">Full-Stack Developer & UI/UX Designer</p>
+                </div>
+                
+                <div class="border-t border-white/5 pt-4">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-muted">Client / Organization</h3>
+                    <p class="text-primary font-medium mt-1">Iranian Airports Holding Company</p>
+                </div>
+
+                <div class="border-t border-white/5 pt-4">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-muted">Technologies Used</h3>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="glass px-3 py-1 rounded-full text-xs">Unity Engine</span>
+                        <span class="glass px-3 py-1 rounded-full text-xs">C#</span>
+                        <span class="glass px-3 py-1 rounded-full text-xs">Blender</span>
+                        <span class="glass px-3 py-1 rounded-full text-xs">Git</span>
+                    </div>
+                </div>
+
+                <div class="border-t border-white/5 pt-6">
+                    <a href="#" class="w-full inline-flex items-center justify-center bg-primary text-black font-semibold py-3 px-4 rounded-xl transition hover:scale-[1.02] text-sm">
+                        Launch Live Project
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="border-t border-white/5 mt-24">
+        <div class="max-w-[1160px] mx-auto px-6 py-8 flex flex-col md:flex-row justify-between text-sm text-muted gap-4">
+            <p> © 2026 AM. Crafted with HTML & Tailwind CSS.</p>
+            <a href="../index.html" class="hover:text-white transition">Back to Main Page</a>
+        </div>
+    </footer class="border-t border-white/5">
+
+    <script src="script.js"></script>
+</body>
+</html>
